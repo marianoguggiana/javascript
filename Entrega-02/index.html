@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3c44aa10f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Calculador de cuotas</title>
+</head>
+<body>
+    <div class="form">
+        <fieldset>
+            <h1>Calculador de cuotas</h1>
+            <form>
+                <div>
+                    <label for="costo">Costo 
+                        <input type="text" placeholder="Ingresar costo" id="costo">
+                    </label>
+                </div>
+                <div>
+                    <label for="cuota">Cuotas: 
+                        <select placeholder="Ingresar cuotas" id="cuota">
+                            <option value="1">1 cuota</option>
+                            <option value="3">3 cuotas</option>
+                            <option value="6">6 cuotas</option>
+                            <option value="12">12 cuotas</option>
+                        </select>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="interes">Interes:
+                        <label id="interes">
+                    
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="valorcuota">Valor cuota:
+                        <label id="valorcuota">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="total">Valor total:
+                        <label id="total">
+                    </label>
+                </div>
+            </form>
+        <button onclick="interes();">CALCULAR</button>
+        </fieldset>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
